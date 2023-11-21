@@ -1,1 +1,70 @@
-/* Add your own styles */
+.container{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: grey;
+  
+    padding: 20px 40px;
+ 
+    z-index: 1;
+    
+}
+h1, h2, h3 {
+    font-family: 'Tahoma', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+button:hover{
+    color:red
+}
+.controls{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #06070f;
+    padding: 0 40px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+label{
+
+}
+
+input{
+    flex: 1;
+    height: 55px;
+    width: 70%;
+    border: none;
+    outline: none;
+}
+
+button{ background: green;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 10px;}
+
+    body {
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+    background-image: url("spidey.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+table{
+    border: 1px;
+    border-color: aqua;
+}
